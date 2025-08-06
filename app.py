@@ -13,12 +13,12 @@ from whisper_mic import transcribe_stream
 
 app = Flask(__name__)
 
-TWILIO_SID = "YOUR_TWILIO_SID"
-TWILIO_AUTH = "YOUR_TWILIO_AUTH_TOKEN"
+TWILIO_SID = "AC47f1176490d7d44679303d353318a54b"
+TWILIO_AUTH = "537139dc0104b484a6da6f4c9d5b4296"
 client = Client(TWILIO_SID, TWILIO_AUTH)
 
 CALL_SID = None
-WS_URL = "wss://your-app-name.onrender.com/ws"
+WS_URL = "wss://https://call-agent-4k9h.onrender.com/ws"
 REPLIES = {}
 
 @app.route("/twilio-call", methods=["POST"])
