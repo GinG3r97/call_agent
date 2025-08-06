@@ -1,0 +1,6 @@
+flask
+twilio
+websockets
+requests
+torch
+whisper
