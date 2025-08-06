@@ -3,4 +3,5 @@ twilio
 websockets
 requests
 torch
-whisper
+openai-whisper
+numpy
